@@ -3,11 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
   
-  {
-    path: '/entry-option',
-    name: 'entry-option',
-    component: () => import('../views/EntryOptionView.vue')
-  },
+
   {
     path: '/',
     name: 'inicio',
