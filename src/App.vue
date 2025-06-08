@@ -1,10 +1,25 @@
 <script setup lang="ts">
-import Todos from './components/Todos.vue'
+
+import "@aws-amplify/ui-vue/styles.css";
+
+import { RouterView } from "vue-router";
+
+
 </script>
 
+
 <template>
-  <main>
-    <Todos />
-  </main>
+ 
+          
+ 
+      
+  
+  <RouterView />
+       
+      
+  
 </template>
 
+<style scoped>
+
+</style>
